@@ -1,0 +1,54 @@
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    background-color: black;
+}
+body {
+margin: 0;
+
+}
+
+.flex-center{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+
+}
+.container{
+    border:3px solid black;
+    height: 100vh;
+
+
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-top:3px solid white ;
+    animation-duration: 2s;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+}
+.circle-medium{
+    width: 110px;
+    height:110px;
+    border-color: whitesmoke;
+    animation-duration: 0.75s;
+    animation-direction: reverse;
+}
+.circle-small{
+    width: 70px;
+    height: 70px;
+    border-color: rgb(220, 219, 219);
+    animation-duration: 0.8s;
+    
+}
+@keyframes spin {
+    from{
+        transform :rotate(0deg)
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
