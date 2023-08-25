@@ -1,0 +1,2 @@
+Bg-Color : #dddddd
+Text-color : #000000
