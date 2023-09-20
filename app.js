@@ -68,6 +68,13 @@ const DataProjets = [
         "image":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
         "disc":"This project is a website of an educational institution as requested by the Client .",
         "link":"https://rahouihamza.github.io/CenterALnajah/"
+    },
+    {
+        "title":"Movies & Tv Shows",
+        "type":"Website",
+        "image":"https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "disc":"This project is a website dedicated to streaming movies and TV shows .",
+        "link":"https://rahouihamza.github.io/Movies_TV/"
     }
 ]
 
